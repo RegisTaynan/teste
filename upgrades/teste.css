@@ -1,0 +1,21 @@
+*{
+    font: normal 20pt arial;
+}
+.pai {
+    display: flex;
+    font: normal 20pt arial;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+}
+.filho {
+    background-color: red;
+    color: black;
+    width: 20vw;
+    height: 40vh;
+    line-height: 200px;
+    text-align: center;
+    border: 5px solid brown;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.422);
+}
