@@ -4,52 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
-    <style>
-        *{
-    font: normal 20pt arial;
-}   /*Fonte*/
-.pai {
-    display: flex;
-    font: normal 20pt arial;
-    width: 1000px;
-    height: 1000px;
-    justify-content: center;
-}   /*Configuração da caixa*/
-.filho {
-    background-color: red;
-    color: black;
-    width: 20vw;
-    height: 40vh;
-    line-height: 200px;
-    text-align: center;
-    border: 5px solid brown;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.422);
-}   /*Como a caixa fica*/
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="pai"><!--div que armazena a caixa-->
-        <div class="filho">clique</div><br><!--caixa-->
+        <div class="filho">clique</div><!--caixa-->
     </div>
-    <script>
-        let filho = document.querySelector('.filho')
-        /*dando nome a caixa*/
-        filho.addEventListener('click', clicou)
-        filho.addEventListener('mouseout', saiu)
-        /*Adicionando eventos para a caixa*/
-        function clicou(){
-            filho.style.background = '#9fd9ff'
-            filho.innerHTML = 'clicou'
-            filho.style.borderColor = 'deepskyblue'
-        }
-        /*Função de quando o mouse clica na caixa*/
-        function saiu() {
-            filho.style.background = 'red'
-            filho.innerHTML = 'clique'
-            filho.style.borderColor = 'brown'
-        }
-        /*função de quando o mouse sai da caixa*/
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
