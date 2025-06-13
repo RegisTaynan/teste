@@ -11,11 +11,11 @@ function clicou(){
 function saiu() {  
     filho.style.background = 'green'
     filho.innerHTML = 'Saiu'
-    filho.style.borderColor = 'dark green'
+    filho.style.borderColor = '#164416'
     setTimeout(() => {
         filho.style.background = 'red'
         filho.innerHTML = 'Clique'
         filho.style.borderColor = 'brown'
-    }, 3000);   // tempo em miléssimos (3000ms = 3s)
+    }, 3500);   // tempo em miléssimos (3500ms = 3,5s)
     
 }   //função de quando o mouse sai da caixa e um timer de 3 segundos
